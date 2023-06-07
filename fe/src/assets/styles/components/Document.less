@@ -1,0 +1,80 @@
+.doc {
+    width: 100%;
+    height: 115px;
+    @media all and (max-width: 600px) {
+        height: 80px;
+    }
+    &_passport {
+        width: 45%;
+        height: 100%;
+        border: 1px solid @light-grey;
+        text-align: center;
+        line-height: 115px;
+        float: left;
+        cursor: pointer;
+
+        @media all and (max-width: 600px) {
+            width: 80px;
+            line-height: 80px;
+        }
+
+        &_selection {
+            width: 45%;
+            height: 100%;
+            border: 1px solid @red;
+            text-align: center;
+            line-height: 115px;
+            float: left;
+            cursor: pointer;
+            @media all and (max-width: 600px) {
+                width: 80px;
+                line-height: 80px;
+            }
+        }
+
+        &_img {
+            width: 50px;
+
+            &_selection {
+                width: 50px;
+                color: @red;
+            }
+        }
+    }
+
+    &_id {
+        width: 45%;
+        height: 100%;
+        border: 1px solid @light-grey;
+        float: right;
+        text-align: center;
+        line-height: 115px;
+        cursor: pointer;
+        @media all and (max-width: 600px) {
+            width: 80px;
+            line-height: 80px;
+        }
+        &_selection {
+            width: 45%;
+            height: 100%;
+            border: 1px solid @red;
+            float: right;
+            text-align: center;
+            line-height: 115px;
+            cursor: pointer;
+            @media all and (max-width: 600px) {
+                width: 80px;
+                line-height: 80px;
+            }
+        }
+
+        &_img {
+            width: 40px;
+
+            &_selection {
+                width: 40px;
+                color: @red;
+            }
+        }
+    }
+}

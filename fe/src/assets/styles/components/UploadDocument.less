@@ -1,0 +1,40 @@
+.upload {
+    width: 100%;
+    height: 200px;
+    border: 1px dashed @grey;
+    text-align: center;
+    margin-bottom: 15px;
+    cursor: pointer;
+    
+    @media all and (max-width: 600px) {
+        height: 150px;
+    }
+    &_icon {
+        width: 40px;
+        height: 40px;
+        margin-top: 80px;
+        @media all and (max-width: 600px) {
+            margin-top: 50px;
+        }
+    }
+
+    &_choose_title {
+        top: 45px;
+        left: 80px;
+        color: gray;
+        font-size: 12px;
+        margin: 0 auto;
+    }
+
+    &_file_name {
+        width: 100px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin: 0 auto;
+    }
+
+    input {
+        display: none;
+    }
+}
